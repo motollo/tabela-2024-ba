@@ -1,0 +1,43 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Estilo das células da tabela */
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+/* Estilo para cabeçalhos */
+th {
+    background-color: #4CAF50;
+    color: white;
+/* color: Define a cor do texto dos cabeçalhos como branco. */
+}
+
+/* Estilo para linhas alternadas */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para linha ao passar o mouse */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilo para links */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+td img{
+width: 20%;
+}
